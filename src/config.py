@@ -2,7 +2,7 @@ import string
 import random
 
 common = {
-    "exp_name": "norec", # ace05_lu
+    "exp_name": "norec", # # ca, eu, ds, mpqa
     "rel2id": "rel2id.json",
     "ent2id": "ent2id.json",
     "device_num": 0,
@@ -42,7 +42,7 @@ train_config = {
 }
 
 eval_config = {
-    "model_state_dict_dir": "/home/shiwenxuan/workspace/ssa_master/src/default_log_dir/norec_1234/model_state_dict_11_6_0.3876.pt", 
+    "model_state_dict_dir": "./default_log_dir/norec_1234/model_state_dict_11_6_0.3876.pt", 
     "test_data": "test.json", 
 
     "hyper_parameters": {
@@ -61,7 +61,7 @@ model_config = {
     "pos2idx": "pos2idx.json",
     "lemma2idx": "lemma2idx.json",
     "char_dict": "char_dict",
-    "pretrained_word_embedding_path": "../pretrained_word_emb/Norwegian_100d.txt", # eu: Basque_100d.txt ca: Catalan_100d.txt Norwegian_100d.txt multi_100d.txt
+    "pretrained_word_embedding_path": "../pretrained_word_emb/Norwegian_100d.txt", # eu: Basque_100d.txt ca: Catalan_100d.txt Norwegian_100d.txt
     "hyper_parameters": {
          "lr": 3e-5,
          "enc_hidden_size": 1000,
