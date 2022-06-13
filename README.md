@@ -2,7 +2,7 @@
 
 **Effective Token Graph Modeling using a Novel Labeling Strategy for Structured Sentiment Analysis**
 
-This repository contains the code of the official implementation for the paper: **[Effective Token Graph Modeling using a Novel Labeling Strategy for Structured Sentiment Analysis](https://arxiv.org/abs/2203.10796).** The paper has been accepted to appear at **ACL 2022**. 
+This repository contains the code of the official implementation for the paper: **[Effective Token Graph Modeling using a Novel Labeling Strategy for Structured Sentiment Analysis](https://aclanthology.org/2022.acl-long.291/).** The paper has been accepted to appear at **ACL 2022**. 
 
 ## Environment
 * python==3.7.10
